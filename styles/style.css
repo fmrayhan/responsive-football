@@ -1,0 +1,104 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common style */
+
+body{
+    
+    background-color: #FFFFFF;
+}
+
+
+    
+/* Heading style-- */
+
+.heading-container{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
+section{
+    display: flex;
+    padding-left: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 54px;
+    margin-top: 200px;
+    
+    
+}
+.Watch-button{
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.fas{
+    color: white;
+}
+.half-width img{
+    width: 80%;
+   margin-top: 180px;
+   margin-right: 100px;
+}
+
+
+
+
+
+
+/* top players style */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1050px;
+    padding: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding-bottom: 27px;
+    
+
+}
+.player{
+    border: 2px solid white;
+    padding: 15px;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;
+}
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 10px 0px;
+    
+   
+}
+.player-name{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+}
+/* footer style */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 158px;
+}
+h6{
+    font-size: 18px;
+    font-weight: 400px;
+}
