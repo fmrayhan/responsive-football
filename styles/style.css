@@ -46,6 +46,16 @@ h1{
    margin-right: 100px;
 }
 
+/* Transition  */
+#transition:hover{
+    width: 92%;
+}
+#transition{
+    transition: width 5s;
+}
+
+
+
 
 
 
@@ -77,17 +87,18 @@ main{
 .player img{
     width: 100%;
 }
+
+.player-name{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+}
 p{
     font-size: 16px;
     color: #6C6C6C;
     margin: 10px 0px;
     
    
-}
-.player-name{
-    font-size: 28px;
-    font-family: 'Poppins', sans-serif;
-    margin: 10px 0px;
 }
 /* footer style */
 footer{
@@ -101,4 +112,47 @@ footer{
 h6{
     font-size: 18px;
     font-weight: 400px;
+}
+.far{
+    font-size: 14px;
+}
+/*------ Media Queries----- */
+
+/* ----Mobile Devices------ */
+@media Only screen and (max-width:688px) {
+    /* ----Header style---- */
+    .heading-container{
+        width: 100%;
+       
+    } 
+    .half-width{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        
+    } 
+    section{
+        flex-direction: column;
+    }  
+    .Watch-button{
+        width: 120px;
+        height: 18px;
+    }
+    header{
+        margin-bottom: 300px;
+    }
+    /*----------- Header End-------- */
+    /* --------Main section Start----- */
+    .container{
+        width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        padding-left: 50px;
+        
+        
+    }
+    /* ---------Main Section End------ */
 }
